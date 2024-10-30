@@ -1,0 +1,13 @@
+name = "FOVSimulator"
+uuid = "0270e18c-60f1-417e-858a-49b0e9df1932"
+authors = ["Masanori Kanamaru <kanamaru-masanori@hotmail.co.jp>"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.11"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
